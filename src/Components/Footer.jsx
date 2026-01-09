@@ -2,13 +2,17 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white w-full border-t border-gray-700 ">
+    <footer className="bg-gray-900 text-white w-full border-t border-gray-700    ">
       <div className="max-w-7xl mx-auto      py-10">
 
         {/* TOP: Social Icons */}
         <div className="flex justify-center lg:justify-center gap-8 mb-6">
           <i className="fa-brands fa-github text-3xl hover:text-orange-400 transition cursor-pointer"></i>
-          <i className="fa-brands fa-linkedin text-3xl hover:text-orange-400 transition cursor-pointer"></i>
+          
+              <a href="https://www.linkedin.com/in/kanheyalal-kumawat-3142a1234/" className="hover:text-orange-500 duration-300">
+                <i className="fa-brands fa-linkedin text-3xl sm:text-3xl"></i>
+              </a>
+          
           <a
             href="https://wa.me/917247501035"
             target="_blank"

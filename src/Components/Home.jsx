@@ -15,7 +15,6 @@ const Home = () => {
       {/* Main Section */}
       <main id="Home" className="flex-grow flex items-center">
         <div className="mx-auto flex flex-col lg:flex-row items-center max-w-7xl gap-12 p-6">
-
           {/* Text Section */}
           <div className="flex flex-col gap-6 text-center lg:text-left z-10 mt-20 lg:mt-28">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight ">
@@ -50,10 +49,7 @@ const Home = () => {
                 <i className="fa-brands fa-github"></i>
               </a>
 
-              <a
-                href="https://www.linkedin.com/in/kanheyalal-kumawat-3142a1234/"
-                className="hover:text-orange-500 duration-300"
-              >
+              <a href="https://www.linkedin.com/in/kanheyalal-kumawat-3142a1234/" className="hover:text-orange-500 duration-300">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
 
@@ -66,10 +62,10 @@ const Home = () => {
             </div>
           </div>
 
-         {/* Image Section */}
-<div className="flex justify-center flex-1 mt-4 lg:mt-20">
-  <div
-    className="
+          {/* Image Section */}
+          <div className="flex justify-center flex-1 mt-4 lg:mt-20">
+            <div
+              className="
       w-64 h-80 sm:w-72 sm:h-96 md:w-80 md:h-[420px] lg:w-96 lg:h-[480px]
       rounded-xl overflow-hidden
       rotate-[15deg]
@@ -77,16 +73,14 @@ const Home = () => {
       shadow-[0_0_25px_rgba(0,153,255,0.8)]
       hover:scale-105 transition duration-500
     "
-  >
-    <img
-      src={Akimg}
-      alt="Profile"
-      className="w-full h-full object-cover"
-    />
-  </div>
-</div>
-
-
+            >
+              <img
+                src={Akimg}
+                alt="Profile"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
       </main>
     </div>

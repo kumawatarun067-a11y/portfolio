@@ -16,7 +16,7 @@ const Contect = () => {
 
   return (
     <section
-      className="w-full px-5 sm:px-10 py-10 bg-gray-900 "
+      className="w-full px-5 sm:px-10 py-10 bg-gray-900 mb"
       id="Contect"
     >
       <div className="flex flex-col md:flex-row items-start justify-between mt-3">

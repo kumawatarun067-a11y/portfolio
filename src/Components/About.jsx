@@ -25,10 +25,11 @@ const About = () => {
             {/* Text Section */}
             <div className="flex flex-col gap-6 text-center lg:text-left">
               <h1 className="text-4xl font-bold sm:text-5xl">
-                    Java Full Stack Developer | Fresher
+                Java Full Stack Developer | Fresher
               </h1>
               <p className="text-base text-gray-600 dark:text-gray-300">
-               I build responsive and user-friendly web applications using Java, Spring Boot, React, and modern web technologies.
+                I build responsive and user-friendly web applications using
+                Java, Spring Boot, React, and modern web technologies.
               </p>
 
               <div className="flex flex-wrap justify-center gap-3 lg:justify-start">
@@ -56,10 +57,14 @@ const About = () => {
                 <a href="#" className="hover:text-orange-500 duration-300">
                   <i className="fa-brands fa-github"></i>
                 </a>
-                <a href="#" className="hover:text-orange-500 duration-300">
-                  <i className="fa-brands fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/kanheyalal-kumawat-3142a1234/" className="hover:text-orange-500 duration-300">
+                <i className="fa-brands fa-linkedin"></i>
                 </a>
-                <a href="mailto:kumawatarun067@gmail.com" className="hover:text-orange-400 transition" >
+
+                <a
+                  href="mailto:kumawatarun067@gmail.com"
+                  className="hover:text-orange-400 transition"
+                >
                   <i className="fa-solid fa-envelope"></i>
                 </a>
               </div>
@@ -105,7 +110,8 @@ const About = () => {
                       improve user experience with a responsive and interactive
                       layout. Technologies Used: HTML, CSS, JavaScript Role:
                       Designed and implemented the entire front-end structure of
-                      the product catalog using HTML, CSS,JavaScript and React js .
+                      the product catalog using HTML, CSS,JavaScript and React
+                      js .
                     </p>
                   </div>
 
