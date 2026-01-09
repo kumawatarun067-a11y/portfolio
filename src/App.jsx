@@ -9,6 +9,7 @@ import Resume from './Pages/Resume'
 import Newnav from './Components/Newnav'
 import Projects from './Pages/Projects'
 import ScrollToSection from './Components/ScrollToSection'
+import Footer from './Components/Footer'
 
 
 
@@ -30,7 +31,7 @@ function App() {
         <About/>
         <EducationSkills/>
         <Contect/>
-        
+        <Footer/>
 
         </>
       }

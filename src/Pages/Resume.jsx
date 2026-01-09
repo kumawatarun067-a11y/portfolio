@@ -62,8 +62,20 @@ const Resume = () => {
           Contact
         </h2>
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-6 text-gray-300 items-center sm:items-start">
-          <span>📧 kumawatarun067@gmail.com</span>
-          <span>📞 +91-7247501035</span>
+              <a
+            href="mailto:kumawatarun067@gmail.com"
+            className="flex items-center gap-2 hover:text-orange-400 transition"
+          >
+            <i className="fa-solid fa-envelope"></i>
+            kumawatarun067@gmail.com
+          </a>
+
+          <a
+            href="tel:+917247501035"
+            className="flex items-center gap-2 hover:text-orange-400 transition"
+          >
+            📞 +91-7247501035
+          </a>
         </div>
       </div>
 
@@ -72,4 +84,3 @@ const Resume = () => {
 };
 
 export default Resume;
-  
